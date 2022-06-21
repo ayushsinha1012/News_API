@@ -16,7 +16,7 @@ if(ctr==alerts.length){
 }, 500);
 
 
-let api = "API Key"; //generate ans enter the API Key
+let api = "API Key"; //generate and enter the API Key
 const xhr = new XMLHttpRequest();
 xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=${api}`, true);
 xhr.onload = function () {
